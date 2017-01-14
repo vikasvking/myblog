@@ -12,11 +12,11 @@ gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
 gem 'pg', '~> 0.18'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'puma', '~> 3.0'
-
+gem 'devise', '~> 4.2'
 gem 'sass-rails', '~> 5.0'
-
+gem 'activeadmin', github: 'activeadmin'
 gem 'uglifier', '>= 1.3.0'
-
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
