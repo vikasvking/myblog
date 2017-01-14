@@ -6,9 +6,12 @@
     = csrf_meta_tags
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    %link{:crossorigin => "anonymous", :href => "https://unpkg.com/purecss@0.6.2/build/pure-min.css", :integrity => "sha384-", :rel => "stylesheet"}/
+    %link{:href => "https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css", :rel => "stylesheet"}/
+
+
   %body
-    #page.container
-      %div.row
-        %div.col-lg-3.offset-0= render "shared/header"
-        %div.col-lg-9.offest-0= yield
+    %div#layout.pure-g
+      = render "shared/header"
+      = yield
       

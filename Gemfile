@@ -22,7 +22,7 @@ gem 'active_skin'
 gem 'jquery-rails'
 gem 'paperclip', '~> 5.1'
 gem 'turbolinks', '~> 5'
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+gem 'will_paginate', '~> 3.1.0'
 gem 'jbuilder', '~> 2.5'
 
 
