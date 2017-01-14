@@ -8,9 +8,9 @@ end
 
 gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'rails', '~> 5.0.1'
-# Use postgresql as the database for Active Record
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
 gem 'pg', '~> 0.18'
-# Use Puma as the app server
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'puma', '~> 3.0'
 
 gem 'sass-rails', '~> 5.0'
