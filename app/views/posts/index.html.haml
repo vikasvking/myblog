@@ -4,8 +4,13 @@
         
     %section.post
       - @post.each do |i|
-        %header.post-header
-        = image_tag i.image.url(:thumb),:class=>"post-avatar"
-        %h2.post-title= link_to i.title,i,:class=>"linkto"
-        %p.post-meta= i.body
+        %div.row
+          %div.col-lg-8
+            %header.post-header
+        
+            %h2.post-title= link_to i.title,i,:class=>"linkto"
+            %p.post-meta= i.body
+          %div.col-lg-2
+            = image_tag i.image.url(:thumb),:class=>"post-avatar"
+        .clearfix
       = will_paginate @post
