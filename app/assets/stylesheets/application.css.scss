@@ -71,12 +71,7 @@
     text-decoration: none;
   }
   
-  .container
-  {
-    overflow: hidden;
-    margin: 0em auto;
-    width: 1200px;
-  }
+
   
 /*********************************************************************************/
 /* Image Style                                                                   */
@@ -97,6 +92,7 @@
   {
     display: block;
     width: 100%;
+    height: 300px;
     margin: 0 0 2em 0;
   }
   
@@ -399,8 +395,9 @@
   #header
   {
     position: relative;
-    float: left;
-    width: 300px;
+    margin: 0px;
+    height: 100%;
+    min-height:100%;
     padding: 3em 0em;
   }
 
@@ -475,6 +472,7 @@
   
   #menu li:hover a, #menu li.active a, #menu li.active span
   {
+
   }
   
   #menu .current_page_item a
@@ -508,12 +506,14 @@
 /*********************************************************************************/
 /* Main                                                                          */
 /*********************************************************************************/
-
+.offset-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
   #main
   {
-    overflow: hidden;
-    float: right;
-    width: 800px;
+    
+    margin-left: 0px;
     padding: 3em 50px 5em 50px;
     background: #FFF;
     border-top: 6px solid #2980b9;

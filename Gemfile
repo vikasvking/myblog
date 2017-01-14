@@ -18,12 +18,9 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'uglifier', '>= 1.3.0'
 gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 gem 'coffee-rails', '~> 4.2'
-# See https://github.com/rails/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
-
-# Use jquery as the JavaScript library
+gem 'active_skin'
 gem 'jquery-rails'
-# Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
+gem 'paperclip', '~> 5.1'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
