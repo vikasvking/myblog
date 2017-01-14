@@ -1,0 +1,9 @@
+.content.pure-u-1.pure-u-md-3-4       
+  .posts
+    %h1.content-subhead 
+      = link_to "BACK",root_path,:class=>"btn btn-default"
+    %section.post
+      %header.post-header
+      = image_tag @post.image.url(:thumb),:class=>"post-avatar"
+      %h2.post-title= @post.title
+      %p.post-meta= @post.body

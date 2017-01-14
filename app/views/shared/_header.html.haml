@@ -1,11 +1,16 @@
 .sidebar.pure-u-1.pure-u-md-1-4
   .header
+    = image_tag "1.jpg",:height=>"100",:width=>"100",:class=>"post-avatar"
     %h1.brand-title Vikas Blog
     %h2.brand-tagline Expressing The Feeling By writing
     %nav.nav
-      %ul.nav-list
+      %ul.nav.nav-pills.nav-stacked
         %li.nav-item
-          %a.pure-button{:href => "http://purecss.io"} Pure
+          %a.pure-button{:href=>"#",:style=>"text-decoration:none;"} Home
         %li.nav-item
-          %a.pure-button{:href => "http://yuilibrary.com"} YUI Library
+          %a.pure-button{:href => "#",:style=>"text-decoration:none;"} Portfolio
+        %li.nav-item
+          %a.pure-button{:href => "#",:style=>"text-decoration:none;"} Contact me
+        %li.nav-item
+          %a.pure-button{:href => "#",:style=>"text-decoration:none;"} About Me
     

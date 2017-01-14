@@ -5,7 +5,7 @@
     %section.post
       - @post.each do |i|
         %header.post-header
-        = image_tag i.image.url(:thumb),:class=>"img-avatar"
-        %h2.post-title= i.title
+        = image_tag i.image.url(:thumb),:class=>"post-avatar"
+        %h2.post-title= link_to i.title,i,:class=>"linkto"
         %p.post-meta= i.body
                   
