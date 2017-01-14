@@ -8,4 +8,4 @@
         = image_tag i.image.url(:thumb),:class=>"post-avatar"
         %h2.post-title= link_to i.title,i,:class=>"linkto"
         %p.post-meta= i.body
-                  
+      = will_paginate @post

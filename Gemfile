@@ -22,7 +22,7 @@ gem 'active_skin'
 gem 'jquery-rails'
 gem 'paperclip', '~> 5.1'
 gem 'turbolinks', '~> 5'
-gem 'will_paginate', '~> 3.1.0'
+gem 'will_paginate','~>3.1.0'
 gem 'jbuilder', '~> 2.5'
 
 
