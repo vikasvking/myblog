@@ -6,7 +6,7 @@ permit_params :name,:image
     attributes_table do
       row :name
       row :image do
-        post.image? ? image_tag(portfolio.image.url,height:'100'):content_tag(:span,"No photo yet")
+        portfolio.image? ? image_tag(portfolio.image.url,height:'100'):content_tag(:span,"No photo yet")
       end
     end
   end

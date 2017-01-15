@@ -1,3 +1,14 @@
 .content.pure-u-1.pure-u-md-3-4    
   .posts
+    - for j in (0...@i.size).step(3)
+      %div.row
+        %div.col-lg-4
+          - if !@i[j].nil?
+            = image_tag @i[j].image.url(:medium)
+        %div.col-lg-4
+          - if !@i[j+1].nil?
+            = image_tag @i[j+1].image.url(:medium)
+        %div.col-lg-4
+          - if !@i[j+2].nil?
+            = image_tag @i[j+2].image.url(:medium)
     
