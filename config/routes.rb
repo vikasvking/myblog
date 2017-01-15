@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'others/contact'
+
+  get 'others/about'
+
+  get 'portfolios/index'
+
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
   devise_for :users
