@@ -9,7 +9,7 @@
             %header.post-header
         
             %h2.post-title= link_to i.title,i,:class=>"linkto"
-            %p.post-meta= i.body
+            %p.post-meta= simple_format(i.body[0..i.body.size/3])
           %div.col-lg-2
             = image_tag i.image.url(:thumb),:class=>"post-avatar"
         .clearfix
