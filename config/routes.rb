@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   ActiveAdmin.routes(self)
   devise_for :users
   resources :posts
+  resources :others
   root "posts#index"
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html

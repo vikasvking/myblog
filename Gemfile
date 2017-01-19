@@ -25,6 +25,8 @@ gem 'turbolinks', '~> 5'
 gem 'will_paginate','~>3.1.0'
 gem 'jbuilder', '~> 2.5'
 gem 'turbolinks_transitions'
+gem 'simple_form'
+gem 'better_errors', '~> 2.1', '>= 2.1.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
